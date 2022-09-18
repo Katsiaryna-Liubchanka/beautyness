@@ -191,6 +191,10 @@ header p:hover {
   margin-right: 30px;
 }
 
+.services img.img-service:hover {
+box-shadow: 0px 0px 6px 5px var(--weak-color);
+}
+
 .service h4 {
   font-family: 'Playfair Display';
   font-style: normal;
@@ -459,7 +463,7 @@ header p:hover {
 }
 
 .fromface .face {
-  padding-left: 51px;
+  padding-left: 50px;
 }
 
 .testimonials {
@@ -773,6 +777,10 @@ header p:hover {
   display: flex;
   gap: 20px;
   margin-bottom: 12px;
+}
+
+.blogs img.img-blog:hover {
+  box-shadow: 0px 0px 6px 4px var(--weak-color);
 }
 
 .blogs .column {
