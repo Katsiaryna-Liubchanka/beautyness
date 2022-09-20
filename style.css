@@ -357,8 +357,12 @@ box-shadow: 0px 0px 6px 5px var(--weak-color);
   line-height: 26px;
   color: var(--color);
   margin: 0;
-  padding-right: 281px;
+  padding-right: 269px;
   padding-top: 11px;
+}
+
+.price h4.Lash {
+  padding-right: 352px;
 }
 
 .price p {
@@ -380,6 +384,10 @@ box-shadow: 0px 0px 6px 5px var(--weak-color);
   line-height: 33px;
   color: var(--color);
   margin: 0;
+}
+
+.price hr:nth-child(odd){
+  height: 2px;
 }
 
 .ourservices button {
@@ -420,12 +428,6 @@ box-shadow: 0px 0px 6px 5px var(--weak-color);
   margin: 0;
 }
 
-/*
-.ourservices .price hr:nth-child(2n+1) {
-  height: 4px;
-}
-*/
-
 .design {
   position: absolute;
   bottom: -4px;
@@ -463,7 +465,7 @@ box-shadow: 0px 0px 6px 5px var(--weak-color);
 }
 
 .fromface .face {
-  padding-left: 50px;
+  padding-left: 59px;
 }
 
 .testimonials {
